@@ -76,7 +76,7 @@
 				 var search = '';
 
 				 if(href.indexOf('?') != -1){
-					 search = href.substring(href.indexOf('?') + 1);
+					 search = href.substring(href.indexOf('?'));
 				 }
 				 
 				 locaLocation.search = search;

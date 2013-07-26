@@ -21,7 +21,7 @@
 			  	_gaq.push(['_setAllowLinker', true]);
 
 			  	_gaq.push(function() {
-			  	  var pageTracker = _gat._getTrackerByName();
+			  	  var pageTracker = _gat._getTrackerByName();			  	  	
 			  		parent.postMessage(pageTracker._getLinkerUrl('${params.parent_url}'),'${params.parent_url}');
 			  	});
 			  	
