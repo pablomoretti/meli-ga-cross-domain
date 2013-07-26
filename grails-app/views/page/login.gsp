@@ -80,7 +80,6 @@
 		  			ga.src = 'http://test-meli-ga.herokuapp.com:8080/ga.js';
 		  	 	</g:else>
 				 
-				 ga.src = 'http://test-meli-ga.herokuapp.com:8080/ga.js';
 				 //ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 				 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 
