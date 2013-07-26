@@ -13,6 +13,10 @@ class PageController {
 
 	def callback() {
 	}
+	
+	def iframe(){
+		
+	}
 
 	def cookies() {
 
